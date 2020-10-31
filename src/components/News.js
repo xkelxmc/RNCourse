@@ -45,7 +45,7 @@ const News = (props) => {
                 alignItems: 'center',
                 borderRadius: 5,
                 marginTop: 20,
-            }, styles.shadows])}
+            }, styles.shadows, spacingStyles.pt8])}
         >
             <View>
                 <Text>Button</Text>
@@ -65,6 +65,34 @@ const styles = StyleSheet.create({
         shadowRadius: 4.65,
 
         elevation: 6,
+    }
+})
+
+const flexStyles = StyleSheet.create({
+    flex: {
+        flex: 1,
+    },
+    itemsCenter: {
+        alignItems: 'center',
+    },
+    center: {
+        alignItems: 'center',
+        justifyContent: 'center',
+    }
+})
+
+const spacingStyles = StyleSheet.create({
+    pt4: {
+        paddingTop: 4,
+    },
+    pt8: {
+        paddingTop: 8,
+    },
+    pt12: {
+        paddingTop: 12,
+    },
+    pt6: {
+        paddingTop: 16,
     }
 })
 

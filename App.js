@@ -5,6 +5,7 @@ import Counter from "./src/components/Counter";
 import News from "./src/components/News";
 import CounterTest from "./src/components/CounterTest";
 import Input from "./src/components/Input";
+import ItemsList from "./src/components/ItemsList";
 
 // Используется при инициализации компонента
 const useMount = () => {
@@ -104,7 +105,8 @@ export default function App() {
       {/*<Counter/>*/}
       {/*<News/>*/}
       {/*<CounterTest/>*/}
-      <Input/>
+      {/*<Input/>*/}
+      <ItemsList/>
       <StatusBar style="auto" />
     </View>
   );
