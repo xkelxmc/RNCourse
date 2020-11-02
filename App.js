@@ -6,6 +6,7 @@ import News from "./src/components/News";
 import CounterTest from "./src/components/CounterTest";
 import Input from "./src/components/Input";
 import ItemsList from "./src/components/ItemsList";
+import List from "./src/components/1/list";
 
 // Используется при инициализации компонента
 const useMount = () => {
@@ -106,7 +107,8 @@ export default function App() {
       {/*<News/>*/}
       {/*<CounterTest/>*/}
       {/*<Input/>*/}
-      <ItemsList/>
+      {/*<ItemsList/>*/}
+      <List/>
       <StatusBar style="auto" />
     </View>
   );
